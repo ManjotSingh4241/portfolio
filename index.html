@@ -13,10 +13,10 @@
     <header>
         <nav class="navbar">
             <center>
-                <ul>
+                <ul id="mainNav">
                     <li class="glow"><a href="#">Home</a></li>
                     <li class="glow"><a href="#aboutMe">About</a></li>
-                    <li class="glow"><a href="#">Projects</a></li>
+                    <li class="glow"><a href="#projects">Projects</a></li>
                     <li class="glow"><a href="#">Contact Me</a></li>
                 </ul>
             </center>
@@ -25,20 +25,45 @@
 
     <div class="about-me-section">
 
-       <center> <b><h2 id="aboutMe">About Me</h2></b></center>
+       <center> <b><div id="abt"><h2 id="aboutMe">About Me</h2></div></b></center>
 
         <div class="profile-image"><img id="persImage" src="media/ManjotSingh.png"></div>
-        <h3>Your Name</h3>
-        <p class="job-title">Your Job Title</p>
-        <p class="description">Write a brief description about yourself, your interests, and your professional journey.</p>
-        <ul class="interests-list">
-          <li>Interest 1</li>
-          <li>Interest 2</li>
-          <li>Interest 3</li> 
-        </ul>
-      </div>
-      
+        <div id="personalInfo">
+        <h3 id="name">Manjot Singh</h3>
+        <p id="jobType">Web Developer || Web Designer || Software Developer</p>
+        <p id="description">I am a skilled software engineer and web developer experienced in C++, C, SQL, Python, and Linux coding. I have successfully completed multiple projects in these languages, demonstrating my proficiency in both backend and frontend development. With a passion for coding, I continuously learn and adapt to new technologies to deliver high-quality results.</p>
+          <p id="edu">Education:</li>
+          <p id="edu1">Computer Programming(Seneca College)  2022-2023</li>
+        </div>
 
+    </div>
+      
+    <center>
+    <nav class="projects">
+            <ul>
+                <li id="projects" class="glow"><a href="#mainNav">Projects</a></li>
+            </ul>
+        </nav>
+    </center>
+
+    <div class="project1">
+        <img class="img" src="/media/patientBooking.jpeg">
+        <div class="container">
+          <h4 class="ph"><b>Patient Booking</b></h4> 
+          <p class="text">The hospital management application facilitates seamless handling of patient data by enabling hospitals to add, remove, edit, search, and view patient information. It streamlines administrative tasks and ensures efficient management of patient records.</p>
+        <p id="lang" class="lang">C</p>
+        </div>
+
+    </div>
+<!--  -->
+
+<div class="container">
+    <div class="box">
+      <span class="text">Hover me!</span>
+      <span class="hover-text">New Text</span>
+    </div>
+  </div>
+  
 
 </body>
 

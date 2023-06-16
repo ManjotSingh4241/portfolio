@@ -7,7 +7,7 @@ body {
 .navbar {
     background-color: black;
     border-radius: 30px;
-    margin-top:2%
+    margin-top: 2%
 }
 
 .navbar li {
@@ -94,20 +94,13 @@ body {
     box-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px #00e6e6, 0 0 50px #00e6e6, 0 0 80px #00e6e6, 0 0 100px #00e6e6, 0 0 150px #00e6e6;
 }
 
-/*  */
-
-/* .about-me-section {
-    text-align: right;
-    animation: fade-in 1s ease-out;
-  }
-   */
-#abt{
+#abt {
     background-color: rgba(255, 255, 255, 0.1);
-    position:absolute;
+    position: absolute;
     text-align: center;
-    margin-left:30%;
-    margin-top:2%;
-    padding:8px;
+    margin-left: 30%;
+    margin-top: 2%;
+    padding: 8px;
     border-radius: 4%;
     box-shadow: 0 0 5px red, 0 0 10px black, 0 0 15px black;
 
@@ -115,20 +108,20 @@ body {
 
 #aboutMe {
     font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     animation: slide-down 3s ease-in-out;
-    margin:auto;
-    color:#32CD32;
+    margin: auto;
+    color: #32CD32;
     text-shadow: 0 0 10px darkcyan, 0 0 10px darkblue, 0 0 10px darkcyan;
 }
 
-#profile-image{
-    width:200px;
-    height:200px;
+#profile-image {
+    width: 200px;
+    height: 200px;
 }
 
-#persImage{
-    margin-top: 10%; 
+#persImage {
+    margin-top: 10%;
     margin-left: 5%;
     width: 200px;
     height: 200px;
@@ -144,12 +137,12 @@ body {
    } */
 
 .about-me-section {
-    margin:auto;
+    margin: auto;
     margin-top: 6.5%;
-    background-color:  rgba(255, 255, 255,0.05);
-    width:69%;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 69%;
     height: 450px;
-    border-radius:4%;
+    border-radius: 4%;
     box-shadow: 0 0 5px green, 0 0 5px green, 0 0 15px green, 0 0 2px #00e6e6, 0 0 5px #00e6e6, 0 0 8px green, 0 0 15px green, 0 0 15px green;
     animation: fade-in 4s ease-in-out;
 }
@@ -167,37 +160,37 @@ body {
     }
 }
 
-#personalInfo{
+#personalInfo {
     /* background-color: rgba(255, 255, 255,0.05); */
     text-align: center;
-    margin-left:30%;
+    margin-left: 30%;
     margin-top: -20%;
 }
 
-#name{
+#name {
     color: bisque;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
 }
 
-#jobType{
+#jobType {
     color: bisque;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
 
-#description{
+#description {
     color: bisque;
     font-family: 'Courier New', Courier, monospace;
     /* font-size: 20px; */
 }
 
-#edu{
+#edu {
     color: bisque;
     font-family: 'Courier New', Courier, monospace;
 }
 
-#edu1{
+#edu1 {
     color: bisque;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -205,9 +198,9 @@ body {
 .projects {
     background-color: black;
     border-radius: 30px;
-    margin-top:6%;
+    margin-top: 6%;
     box-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px #00e6e6, 0 0 50px #00e6e6, 0 0 80px #00e6e6, 0 0 100px #00e6e6, 0 0 150px #00e6e6;
-    width:50%;
+    width: 50%;
 }
 
 .projects li {
@@ -226,51 +219,58 @@ body {
     text-decoration: none;
     color: white;
 }
+
 .project1 {
-    background-color:  rgba(255, 255, 255,0.05);
-    width:300px;
-    margin-top:4%;
-    margin-left:2%;
-    border-radius:4%
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 10%;
+    border-radius: 4%;
+    box-shadow: 0 0 5px green, 0 0 5px green, 0 0 5px green, 0 0 5px green, 0 0 15px black, 0 0 15px black;
+    /* animation: fade-in 4s ease-in-out; */
+    
 }
-  
-.project1 img {
-    width: 150px;
-    padding: 30px ;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+#h10{
+    color: rgba(255, 255, 255, 0);
 }
 
-.project1 h4{
+.project1 img {
+    width: 150px;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project1 h4 {
     color: bisque;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    opacity:1;
-    margin-top:-10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 1;
+    margin-top: -10px;
 }
 
-.project1 p{
+.project1 p {
     color: wheat;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    margin-top:-30px;
-    padding-bottom:15px;
-    opacity:1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -30px;
+    padding-bottom: 15px;
+    opacity: 1;
 }
 
-.project1 .lang{
+.project1 .lang {
     opacity: 0;
-    position:absolute;
+    position: absolute;
     justify-content: center;
-    top:160%;
-    left:13%;
+    top: 150%;
+    left: 20%;
     font-size: 70px;
     font-weight: 900;
     text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 px red, 0 0 80px red, 0 0 100px red, 0 0 150px red;
@@ -278,26 +278,337 @@ body {
 }
 
 
-.project1:hover .lang{
-    opacity:1;
+.project1:hover .lang {
+    opacity: 1;
 }
 
-.project1:hover .text{
-    opacity:1;
+.project1:hover .text {
+    opacity: 1;
     filter: blur(5px);
 }
 
-.project1:hover .ph{
-    opacity:1;
+.project1:hover .ph {
+    opacity: 1;
     filter: blur(5px);
 }
 
-.project1:hover img{
-    opacity:1;
+.project1:hover img {
+    opacity: 1;
     filter: blur(5px);
 }
 
-.project1:hover .project1 .lang{
-    opacity:1;
-    filter:blur(0px);
+.project1:hover .project1 .lang {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+/*  */
+
+.project2 {
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 300px;
+    margin-top: -32%;
+    margin-left: 39%;
+    border-radius: 4%;
+    box-shadow: 0 0 5px green, 0 0 5px green, 0 0 5px green, 0 0 5px green, 0 0 15px black, 0 0 15px black;
+}
+
+.project2 .img2 {
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: -90px;
+    /* padding-top: -50px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project2 h4 {
+    color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 1;
+    margin-top: -10px;
+}
+
+.project2 .text2 {
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -10px;
+    padding-bottom: 15px;
+    opacity: 1;
+}
+
+.project2 a {
+    text-decoration: none;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.project2 .lang2 {
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0;
+    position: absolute;
+    justify-content: center;
+    top: 145%;
+    left: 43%;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 px red, 0 0 80px red, 0 0 100px red, 0 0 150px red;
+    animation: glowing 2s linear infinite;
+}
+
+
+.project2:hover .lang2 {
+    opacity: 1;
+}
+
+.project2:hover .text2 {
+    opacity: 1;
+    filter: blur(5px);
+}
+
+.project2:hover .sh {
+    opacity: 1;
+    filter: blur(5px);
+}
+
+.project2:hover .img2 {
+    opacity: 1;
+    filter: blur(5px);
+}
+
+.project2:hover .project2 .lang2 {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.project3 {
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 300px;
+    /* height:50px; */
+    margin-top: -32%;
+    margin-left: 69%;
+    border-radius: 4%;
+    box-shadow: 0 0 5px green, 0 0 5px green, 0 0 5px green, 0 0 5px green, 0 0 15px black, 0 0 15px black;
+}
+
+.project3 .img3 {
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: -90px;
+    /* padding-top: -50px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project3 h4 {
+    color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 1;
+    margin-top: -10px;
+}
+
+.project3 .text3 {
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -10px;
+    padding-bottom: 15px;
+    opacity: 1;
+}
+
+.project3 a {
+    text-decoration: none;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.project3 .lang3 {
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0;
+    position: absolute;
+    justify-content: center;
+    top: 145%;
+    left: 72%;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 px red, 0 0 80px red, 0 0 100px red, 0 0 150px red;
+    animation: glowing 2s linear infinite;
+}
+
+
+.project3:hover .lang3 {
+    opacity: 1;
+}
+
+.project3:hover .text3 {
+    opacity: 1;
+    filter: blur(5px);
+}
+
+.project3:hover .sh {
+    opacity: 1;
+    filter: blur(5px);
+}
+
+.project3:hover .img3 {
+    opacity: 1;
+    filter: blur(5px);
+}
+
+.project3:hover .project3 .lang3 {
+    opacity: 1;
+    filter: blur(0px);
+}
+/* ******************************************************************************************JavaScript sccroll */
+/* #pro{
+    opacity:0 ;
+    transform: translateY(20px);
+    transition: opacity 4s ease-out, transform 4s ease-out;
+}
+#pro.is-visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#pro2{
+    opacity:0 ;
+    transform: translateY(20px);
+    transition: opacity 4s ease-out, transform 4s ease-out;
+}
+#pro2.is-visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#pro3{
+    opacity:0 ;
+    transform: translateY(20px);
+    transition: opacity 4s ease-out, transform 4s ease-out;
+}
+#pro3.is-visible{
+    opacity: 1;
+    transform: translateY(0);
+} */
+/* ************************************************************************************************************* */
+
+.project4 {
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 300px;
+    /* height:50px; */
+    margin-top: 13%;
+    margin-left: 10%;
+    border-radius: 4%;
+    box-shadow: 0 0 5px green, 0 0 5px green, 0 0 5px green, 0 0 5px green, 0 0 15px black, 0 0 15px black;
+}
+
+.project4 .img4 {
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: -90px;
+    /* padding-top: -50px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project4 h4 {
+    color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 1;
+    margin-top: -10px;
+}
+
+.project4 .text4 {
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -10px;
+    padding-bottom: 15px;
+    opacity: 1;
+}
+
+.project4 a {
+    text-decoration: none;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.project4 .lang4 {
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0;
+    position: absolute;
+    justify-content: center;
+    top: 220%;
+    left: 14%;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 px red, 0 0 80px red, 0 0 100px red, 0 0 150px red;
+    animation: glowing 2s linear infinite;
+}
+
+
+.project4:hover .lang4 {
+    opacity: 1;
+}
+
+.project4:hover .text4 {
+    opacity: 1;
+    filter: blur(5px);
+}
+
+.project4:hover .sh {
+    opacity: 1;
+    filter: blur(5px);
+}
+
+.project4:hover .img4 {
+    opacity: 1;
+    filter: blur(5px);
+}
+
+.project4:hover .project4 .lang4 {
+    opacity: 1;
+    filter: blur(0px);
 }

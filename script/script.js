@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////////////////////////////Scroll///////////////
-// // Function to check if an element is in the viewport
+// Function to check if an element is in the viewport
 // function isInViewport(element) {
 //     var rect = element.getBoundingClientRect();
 //     return (
@@ -12,7 +12,7 @@
   
 //   // Function to handle the scroll event
 //   function handleScroll() {
-//     var elements = document.querySelectorAll('#pro, #pro3, #pro2');
+//     var elements = document.querySelectorAll('#pro, #pro3, #pro2, #pro4');
   
 //     for (var i = 0; i < elements.length; i++) {
 //       var element = elements[i];

@@ -15,10 +15,10 @@
         <nav class="navbar">
             <center>
                 <ul id="mainNav">
-                    <li class="glow"><a href="#">Home</a></li>
-                    <li class="glow"><a href="#aboutMe">About</a></li>
-                    <li class="glow"><a href="#projects">Projects</a></li>
-                    <li class="glow"><a href="#">Contact Me</a></li>
+                    <li class="glow"><a href="media/TEST-RESUME.docx">Resume</a></li>
+                    <li class="glow"><a href="#aboutMe" class="smooth-scroll">About</a></li>
+                    <li class="glow"><a href="#projects" class="smooth-scroll">Projects</a></li>
+                    <li class="glow"><a href="#form-container">Contact Me</a></li>
                 </ul>
             </center>
         </nav>
@@ -28,7 +28,7 @@
 
         <center> <b>
                 <div id="abt">
-                    <h2 id="aboutMe">About Me</h2>
+                    <h2 id="aboutMe" >About Me</h2>
                 </div>
             </b></center>
 
@@ -54,7 +54,7 @@
         </nav>
     </center>
 
-    <div class="project1" id="pro0">
+    <div class="project1" id="pro">
         <img class="img" src="/media/patientBooking.jpeg">
         <div class="container">
             <h4 class="ph"><b>Patient Booking</b></h4>
@@ -68,7 +68,7 @@
         </div>
 
     </div>
-    <div class="project2" id="pro20">
+    <div class="project2" id="pro2">
         <img class="img2" src="/media/shop.png">
         <div class="container">
             <h4 class="sh"><b>Shop</b></h4>
@@ -83,7 +83,7 @@
         </div>
 
     </div>
-    <div class="project3" id="pro30">
+    <div class="project3" id="pro3">
         <img class="img3" src="/media/ball.png">
         <div class="container">
             <h4 class="sh"><b>Fall Ball</b></h4>
@@ -96,7 +96,7 @@
         </div>
 
     </div>
-    <div class="project4" id="pro40">
+    <div class="project4" id="pro4">
         <img class="img4" src="/media/store.png">
         <div class="container">
             <h4 class="sh"><b>Store</b></h4>
@@ -118,24 +118,35 @@
                 It features a printable resume and a contact form for visitors to reach out to me. The website also
                 provides a link to my GitHub profile, allowing people to explore my projects.</p><br>
             <a href="https://github.com/ManjotSingh4241/portfolio" target="_blank">
-                <p id="lang4" class="lang4">OOP C++
+                <p id="lang5" class="lang5">JavaScript || HTML <br>. || CSS
             </a></p>
         </div>
 
     </div>
+
+    <div class="form-container" id="form-container">
+        <h1>Contact Me</h1>
+        <form netlify>
+          <div class="form-group">
+            <label for="company_name">Company Name (Required)</label>
+            <input type="text" id="company_name" name="company_name" required>
+          </div>
+          <div class="form-group">
+            <label for="sender_name">Your Name (Optional)</label>
+            <input type="text" id="sender_name" name="sender_name">
+          </div>
+          <div class="form-group">
+            <label for="description">Description (Required)</label>
+            <textarea id="description" name="description" required></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
     <div id="bottom" class="bottom">
         <a href="https://github.com/"><img id="github" src="media/github-mark-white.png"></a>
         <a href="https://www.instagram.com/manjot_777/"><img id="insta" src="media/insta.png"></a>
-    </div>
-
-    <div class="contact-section">
-        <h2>Contact Me</h2>
-        <form netlify>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
     </div>
 
 </body>

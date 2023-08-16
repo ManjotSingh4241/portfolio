@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .navbar li {
         display: inline-block;
         list-style: none;
@@ -12,7 +12,7 @@
     }
 
 
-}
+} */
 
 @media screen and (max-width: 1000px) {
     .navbar li {

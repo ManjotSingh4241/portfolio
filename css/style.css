@@ -103,7 +103,6 @@ body {
     padding: 8px;
     border-radius: 4%;
     box-shadow: 0 0 5px red, 0 0 10px black, 0 0 15px black;
-
 }
 
 #aboutMe {
@@ -156,7 +155,6 @@ body {
 }
 
 #personalInfo {
-    /* background-color: rgba(255, 255, 255,0.05); */
     text-align: center;
     margin-left: 30%;
     margin-top: -20%;
@@ -177,7 +175,6 @@ body {
 #description {
     color: bisque;
     font-family: 'Courier New', Courier, monospace;
-    /* font-size: 20px; */
 }
 
 #edu {

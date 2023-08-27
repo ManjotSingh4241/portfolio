@@ -12,7 +12,7 @@ function isInViewport(element) {
 
 // Function to handle the scroll event
 function handleScroll() {
-    var elements = document.querySelectorAll('#pro, #pro3, #pro2, #pro4, #pro5, form-container');
+    var elements = document.querySelectorAll('#pro, #pro3, #pro2, #pro4, #pro5, #pro6');
 
     for (var i = 0; i < elements.length; i++) {
         var element = elements[i];

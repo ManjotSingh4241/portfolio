@@ -9,7 +9,9 @@
     }
     .navbar li a {
         text-decoration: none;
-        color: white;
+    }
+    .glow:hover {
+        font-size: 10px;
     }
 
     .about-me-section {
@@ -67,18 +69,32 @@
 
     .projects {
         margin-top: 2%;
-        width: 5%;
+        width: -50%;
         padding: -20px;
-        height: 50px;
+        height: -50px;
     }
 
     .projects li {
-        margin: 1px 1px;
+        margin-top:23%;
     }
     
     .projects li a {
         padding: -1px -1px;
         font-size: 15px;
+    }
+
+    #pro{
+        /* visibility: hidden; */
+        display:none;
+    }
+    #pro2{
+        /* top: -550%;
+        left:-20% */
+        margin-top:20%;
+        margin-left:10%;
+    }
+    #pro3{
+        display:none;
     }
 
 }
